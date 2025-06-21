@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+body{
+  /* text-align: center; */
+  
+}
+.box{
+  height: 25px;
+}
+.todo-container{
+  display: grid;
+  grid-template-columns: 150px 100px 100px;
+  row-gap: 10px;
+  padding-top: 10px;
+  column-gap: 10px;
+}
+.task-added{
+  display: grid;
+  grid-template-columns: 150px 100px 100px;
+  column-gap: 10px;
+}
+#tarik{
+  height: 26px;
+  /* width: 150px; */
+}
+.task-background{
+  border: none;
+  background-color: rgb(92, 239, 51);
+  font-weight: bolder;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  
+}
+.date-background{
+  border: none;
+  background-color: rgb(244, 250, 44);
+  font-weight: bolder;
+  padding: 5px 5px;
+  border-radius: 10px;
+  
+}
+.button-background{
+  background-color: red;
+  border: none;
+}
